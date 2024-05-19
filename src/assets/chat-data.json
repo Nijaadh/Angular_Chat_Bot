@@ -14,81 +14,75 @@
             ],
             "responses": [
                 "Hello! How can I assist you with your cosmetic needs today?",
-        "Hi there! How can I help you find the perfect cosmetics?",
-        "Hey! Looking for something specific in cosmetics?",
-        "Good day! How can I support your cosmetic shopping?",
-        "Hello! How can I help you today?",
-        "Hi! What can I do for you regarding our cosmetics?",
-        "Hey there! Need help with cosmetics?",
-        "Hello! What cosmetics are you looking for today?"
+                "Hi there! How can I help you find the perfect cosmetics?",
+                "Hey! Looking for something specific in cosmetics?",
+                "Good day! How can I support your cosmetic shopping?",
+                "Hello! How can I help you today?",
+                "Hi! What can I do for you regarding our cosmetics?",
+                "Hey there! Need help with cosmetics?",
+                "Hello! What cosmetics are you looking for today?"
             ]
         },
         {
             "tag": "farewell",
             "patterns": [
-                "Hi",
-        "Hello",
-        "Hey",
-        "Good morning",
-        "Good afternoon",
-        "Good evening",
-        "Hi there",
-        "Hello there"
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Take care",
+                "Thanks, goodbye"
             ],
             "responses": [
-                "Hello! How can I assist you with your cosmetic needs today?",
-        "Hi there! How can I help you find the perfect cosmetics?",
-        "Hey! Looking for something specific in cosmetics?",
-        "Good day! How can I support your cosmetic shopping?",
-        "Hello! How can I help you today?",
-        "Hi! What can I do for you regarding our cosmetics?",
-        "Hey there! Need help with cosmetics?",
-        "Hello! What cosmetics are you looking for today?"
+                "Okay, you are always welcome to MLT Holdings Pvt Ltd.",
+                "Goodbye! Feel free to come back anytime to MLT Holdings Pvt Ltd.",
+                "See you later! Don't hesitate to return to MLT Holdings Pvt Ltd.",
+                "Take care! Visit us again soon at MLT Holdings Pvt Ltd.",
+                "Thanks for chatting! You are welcome anytime to MLT Holdings Pvt Ltd."
             ]
         },
         {
             "tag": "thanks",
             "patterns": [
                 "Thank you",
-        "Thanks",
-        "I appreciate it",
-        "Thank you so much",
-        "Thanks a lot",
-        "Many thanks",
-        "Thank you very much"
+                "Thanks",
+                "I appreciate it",
+                "Thank you so much",
+                "Thanks a lot",
+                "Many thanks",
+                "Thank you very much"
             ],
             "responses": [
                 "You're welcome!",
-        "No problem! Happy to help with your cosmetic needs.",
-        "You're welcome! Is there anything else you need?",
-        "Glad to assist! Let me know if you have more questions.",
-        "You're welcome! Anytime you need help, I'm here.",
-        "No worries! I'm here to help.",
-        "You're welcome! Do you need help with anything else?"
+                "No problem! Happy to help with your cosmetic needs.",
+                "You're welcome! Is there anything else you need?",
+                "Glad to assist! Let me know if you have more questions.",
+                "You're welcome! Anytime you need help, I'm here.",
+                "No worries! I'm here to help.",
+                "You're welcome! Do you need help with anything else?"
             ]
         },
         {
             "tag": "product_inquiry",
             "patterns": [
                 "Tell me about the Nature's Secret Serum",
-                "What is the price of [Luxe Moisturizing Cream]?",
-                "Do you have [Radiant Glow Foundation] in stock?",
-                "I need details about [Velvet Matte Lipstick]",
-                "Can you provide information on [Ultimate Hydration Mask]?",
-                "What are the features of [Silky Smooth Primer]?",
-                "How much does [Age-Defying Eye Cream] cost?",
-                "Is [Perfect Finish Setting Spray] available?",
-                "Give me some details on [Brightening Vitamin C Serum]"
+                "What is the price of Luxe Moisturizing Cream?",
+                "Do you have Radiant Glow Foundation in stock?",
+                "I need details about Velvet Matte Lipstick",
+                "Can you provide information on Ultimate Hydration Mask?",
+                "What are the features of Silky Smooth Primer?",
+                "How much does Age-Defying Eye Cream cost?",
+                "Is Perfect Finish Setting Spray available?",
+                "Give me some details on Brightening Vitamin C Serum"
             ],
             "responses": [
-                "[Nature's Secret Serum] is a high-quality cosmetic product available for Rs.[2500.00]. It features [good].",
-        "[Luxe Moisturizing Cream] costs Rs.[2500.00] and is currently in stock.",
-        "Yes, we have [Radiant Glow Foundation] available. It's priced at Rs.[3500.00] and includes [soo good].",
-        "[Velvet Matte Lipstick] is priced at Rs.[4500.00]. Here are some details: [nice].",
-        "[Ultimate Hydration Mask] is available for Rs.[5500.00]. It comes with [very nice].",
-        "You can get [Silky Smooth Primer] for Rs.[6500.00]. It includes the following features: [awesome].",
-        "The price of [Age-Defying Eye Cream] isRs.[7500.00], and it is currently in stock with these features: [great].",
-        "Currently, [Perfect Finish Setting Spray] is available and priced at Rs.[8500.00]. It has the following features: [exxelent]."
+                "Nature's Secret Serum is a high-quality cosmetic product available for Rs. 2500.00. It features good.",
+                "Luxe Moisturizing Cream costs Rs. 2500.00 and is currently in stock.",
+                "Yes, we have Radiant Glow Foundation available. It's priced at Rs. 3500.00 and includes soo good.",
+                "Velvet Matte Lipstick is priced at Rs. 4500.00. Here are some details: nice.",
+                "Ultimate Hydration Mask is available for Rs. 5500.00. It comes with very nice.",
+                "You can get Silky Smooth Primer for Rs. 6500.00. It includes the following features: awesome.",
+                "The price of Age-Defying Eye Cream is Rs. 7500.00, and it is currently in stock with these features: great.",
+                "Currently, Perfect Finish Setting Spray is available and priced at Rs. 8500.00. It has the following features: excellent."
             ]
         },
         {
@@ -134,7 +128,7 @@
                 "Shipping charges vary based on the shipping method selected. Free shipping is available for orders over Rs.2000.",
                 "We have different shipping rates based on the delivery speed. Free shipping applies to orders over Rs.2000.",
                 "Our shipping policy covers standard, expedited, and overnight shipping. Free shipping is available for purchases over Rs.2000.",
-                "We do ship to [Nittambuwa]. Delivery times and charges vary based on the shipping method selected."
+                "We do ship to Nittambuwa. Delivery times and charges vary based on the shipping method selected."
             ]
         },
         {
@@ -150,14 +144,14 @@
                 "What is the process for returns?"
             ],
             "responses": [
-                "You can return items within [3] days of delivery for a full refund.",
+                "You can return items within 3 days of delivery for a full refund.",
                 "To return a product, please visit our returns page and follow the instructions.",
-                "Our return policy allows for returns within [3] days. Items must be in original condition.",
-                "Returns are accepted within [3] days. Items should be unused and in original packaging.",
-                "You can get a refund if you return the item within [3] days in its original condition.",
-                "We accept returns within [3] days. Items should be in unused and original condition for a full refund.",
-                "Our refund policy states that items can be returned within [3] days for a full refund if they are in their original condition.",
-                "The process for returns includes visiting our returns page and following the provided instructions. Returns are accepted within [return_period] days."
+                "Our return policy allows for returns within 3 days. Items must be in original condition.",
+                "Returns are accepted within 3 days. Items should be unused and in original packaging.",
+                "You can get a refund if you return the item within 3 days in its original condition.",
+                "We accept returns within 3 days. Items should be in unused and original condition for a full refund.",
+                "Our refund policy states that items can be returned within 3 days for a full refund if they are in their original condition.",
+                "The process for returns includes visiting our returns page and following the provided instructions. Returns are accepted within 3 days."
             ]
         },
         {
@@ -243,13 +237,13 @@
             ],
             "responses": [
                 "Our store is located at No 61/29 Kandy Rd, Thihariya, Kalagedihena.",
-        "You can find us at No 61/29 Kandy Rd, Thihariya, Kalagedihena.",
-        "We are located at No 61/29 Kandy Rd, Thihariya, Kalagedihena.",
-        "Our address is No 61/29 Kandy Rd, Thihariya, Kalagedihena.",
-        "The store address is No 61/29 Kandy Rd, Thihariya, Kalagedihena.",
-        "We are situated at No 61/29 Kandy Rd, Thihariya, Kalagedihena.",
-        "Visit us at No 61/29 Kandy Rd, Thihariya, Kalagedihena.",
-        "Our location is No 61/29 Kandy Rd, Thihariya, Kalagedihena."
+                "You can find us at No 61/29 Kandy Rd, Thihariya, Kalagedihena.",
+                "We are located at No 61/29 Kandy Rd, Thihariya, Kalagedihena.",
+                "Our address is No 61/29 Kandy Rd, Thihariya, Kalagedihena.",
+                "The store address is No 61/29 Kandy Rd, Thihariya, Kalagedihena.",
+                "We are situated at No 61/29 Kandy Rd, Thihariya, Kalagedihena.",
+                "Visit us at No 61/29 Kandy Rd, Thihariya, Kalagedihena.",
+                "Our location is No 61/29 Kandy Rd, Thihariya, Kalagedihena."
             ]
         },
         {
@@ -262,20 +256,9 @@
             ],
             "responses": [
                 "i love you too...",
-                "yes of cause",
+                "yes of course",
                 "i love with you",
-                "your my only crush"
-            ]
-        },
-        {
-            "tag": "hasith",
-            "patterns": [
-                "hasith",
-                "hasi"
-            ],
-            "responses": [
-                "හායි මම කයිය පාල",
-                "hasith lakshan"
+                "you're my only crush"
             ]
         }
     ]

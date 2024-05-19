@@ -18,7 +18,7 @@ export class ChatBotService {
     return this.http.get('assets/chat-data.json');
   }
 
-  getResponse(message: string): string {
+  async getResponse(message: string): Promise<string> {
     if (!this.chatData) {
       return "I'm sorry, I don't have enough data right now. Please try again later.";
     }
@@ -33,9 +33,14 @@ export class ChatBotService {
         }
       }
     }
-    return "I'm sorry, I don't understand that.";
+
+    // If no suitable response found in the JSON data, delegate to ChatGPT
+    return await this.generateResponseWithChatGPT(message);
   }
 
-
-
+  async generateResponseWithChatGPT(message: string): Promise<string> {
+    // Here, you would call your ChatGPT service or API to generate a response
+    // For demonstration purposes, let's return a placeholder response
+    return "Sorry, I'm still learning. Can you please rephrase your question?";
+  }
 }

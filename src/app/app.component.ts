@@ -22,16 +22,25 @@ export class AppComponent {
     });
   }
 
-  sendMessage() {
+  async sendMessage() {
+    console.log(this.userInput);
     if (this.userInput.trim() !== '' && this.isDataLoaded) {
       this.messages.push({ text: this.userInput, user: true });
-      const botResponse = this.chatService.getResponse(this.userInput);
-      this.messages.push({ text: botResponse, user: false });
+      try {
+        const botResponse = await this.chatService.getResponse(this.userInput);
+        this.messages.push({ text: botResponse, user: false });
+      } catch (error) {
+        console.error("Error occurred while fetching bot response:", error);
+        this.messages.push({ text: "An error occurred while processing your request. Please try again later.", user: false });
+      }
       this.userInput = '';
     } else if (!this.isDataLoaded) {
       this.messages.push({ text: "Data is still loading. Please wait.", user: false });
     }
   }
+  
+  
+  
 
   toggleChat() {
     this.chatActive = !this.chatActive;
