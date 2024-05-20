@@ -224,8 +224,28 @@
             ]
         },
         {
+            "tag": "store_name",
+            "patterns": [
+                
+                "What is your shop name?",
+                "shop name?",
+                "shop name please",
+                "shop?",
+                "name of the shop"
+               
+            ],
+            "responses": [
+              "shop name is MLT HOLDINGS PVT LTD situated in nittambuwa",
+              "shop name is MLT HOLDINGS PVT LTD free to visit here",
+              "shop name is MLT HOLDINGS PVT LTD you are always welcome to the shop",
+              "shop name is MLT HOLDINGS PVT LTD dont miss your chance today",
+              "shop name is MLT HOLDINGS PVT LTD come and take your time to explore your beauty"
+            ]
+        },
+        {
             "tag": "store_location",
             "patterns": [
+                "shop in where?",
                 "Where is your store located?",
                 "What is your address?",
                 "Store location",
